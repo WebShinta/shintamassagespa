@@ -29,7 +29,7 @@ export const metadata = {
   ],
   authors: [{ name: "Bunda Shinta" }],
   creator: "Bunda Shinta",
-  metadataBase: new URL("https://bundashinta.vercel.app"), // Ganti domain saat deploy
+  metadataBase: new URL("https://bundashinta.vercel.app"),
   openGraph: {
     title: "Bunda Shinta Massage Spa | Massage Panggilan Profesional",
     description:

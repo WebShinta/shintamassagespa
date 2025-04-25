@@ -1,22 +1,22 @@
 
 const reviews = [
   {
-    nama: "Dewi A.",
+    nama: "Miftah K.",
     komentar:
       "Pelayanannya sangat memuaskan, terapis datang tepat waktu dan sangat profesional!",
   },
   {
-    nama: "Rina M.",
+    nama: "Sadiah Nuh.",
     komentar:
       "Massage-nya enak banget, langsung rileks dan bisa tidur nyenyak malamnya!",
   },
   {
-    nama: "Novi L.",
+    nama: "Ade Windy.",
     komentar:
       "Suka banget sama perawatan refleksi dan lulurnya, recommended banget!",
   },
   {
-    nama: "Intan S.",
+    nama: "Jajang Fajar.",
     komentar:
       "Terapisnya ramah, sopan, dan hasil pijatannya bikin badan enteng lagi.",
   },

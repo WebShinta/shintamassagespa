@@ -5,8 +5,8 @@ const Form = () => {
   const [formData, setFormData] = useState({
     nama: "",
     alamat: "",
+    kecamatan: "",
     kamar: "",
-    whatsapp: "",
     terapis: "",
     perawatan: "",
     durasi: "",
@@ -27,13 +27,15 @@ const Form = () => {
     e.preventDefault();
 
     const pesan = `
-📋 *Form Booking Spa*:
+ *Order Shinta Massage via WhatsApp* :
+ 
 👤 Nama: ${formData.nama}
 🏠 Alamat: ${formData.alamat}
+🏠 Kecamatan: ${formData.kecamatan}
+
 🚪 No. Kamar: ${formData.kamar}
-📞 No. WA: ${formData.whatsapp}
 🧑‍⚕️ Terapis: ${formData.terapis}
-💆‍♀️ Perawatan: ${formData.perawatan}
+💆‍♀️ Layanan: ${formData.perawatan}
 ⏳ Durasi: ${formData.durasi}
 🕒 Waktu: ${formData.waktu}
 💸 Harga: ${formData.harga}
@@ -52,10 +54,10 @@ const Form = () => {
       {[
         ["nama", "Nama Lengkap"],
         ["alamat", "Alamat Lengkap"],
+        ["kecamatan", "Kecamatan Lengkap"],
         ["kamar", "Nomor Kamar"],
-        ["whatsapp", "Nomor WhatsApp"],
         ["terapis", "Terapis Laki-laki/Perempuan"],
-        ["perawatan", "Perawatan"],
+        ["perawatan", "Layanan"],
         ["durasi", "Durasi"],
         ["waktu", "Waktu"],
         ["harga", "Harga"],

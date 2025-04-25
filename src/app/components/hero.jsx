@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">Shinta Massage Spa</h1>
           <p className="mb-5">
-            Relaksasi Tanpa Batas, Kenyamanan yang Menghampiri Kamu.
+            Relaxsasi Tanpa Batas, Kenyamanan yang Menghampiri Kamu.
             <br />
             Layanan massage panggilan profesional langsung ke rumah kamu.
           </p>

@@ -43,9 +43,17 @@ const Pricelist = () => {
               Sport Massage
             </h2>
             <p className="text-sm md:text-base leading-relaxed">
-              Sport Massage (120 mins) Rp.300
+              Sport Massage (120 mins) Rp.400
               <br />
-              Sport Massage (90 mins) Rp.400
+              Sport Massage (90 mins) Rp.300
+            </p>
+            <h2 className="text-xl md:text-2xl font-bold my-3 mt-3">
+              All Treatment
+            </h2>
+            <p className="text-sm md:text-base leading-relaxed">
+            All Treatment (120 mins) Rp.450
+              <br />
+              All Treatment (90 mins) Rp.350
             </p>
           </div>
           <Image
