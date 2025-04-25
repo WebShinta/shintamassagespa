@@ -112,50 +112,54 @@ export default function Home() {
       <Hero />
 
       <div id="tentang"></div>
-      <div className="w-full p-7 md:p-17 bg-emerald-600 grid justify-center">
-        <h1 className="text-center pb-10 text-2xl md:text-3xl font-bold mb-4 text-white">
+      <div className="w-full p-6 md:p-16 bg-emerald-600 grid justify-center">
+        <h1 className="text-center pb-8 text-2xl md:text-3xl font-bold text-white">
           Apa itu Shinta Massage Spa?
         </h1>
-        <div className="flex flex-col md:flex-row gap-8 items-center md:max-w-full px-20">
-          <div className="w-full md:w-1/2 text-white">
+
+        <div className="flex flex-col md:flex-row gap-8 items-center md:items-start max-w-6xl mx-auto">
+          {/* Teks */}
+          <div className="w-full md:w-1/2 text-white px-4 md:px-0">
             <h2 className="text-xl md:text-2xl font-bold mb-4">
               SHINTA MASSAGE SPA
             </h2>
             <p className="text-sm md:text-base leading-relaxed">
               Bunda Shinta Massage Spa adalah layanan massage profesional yang
               hadir langsung ke rumah Anda. Berdiri sejak tahun 2022, kami
-              berkomitmen untuk memberikan pengalaman relaxsasi terbaik tanpa
+              berkomitmen untuk memberikan pengalaman relaksasi terbaik tanpa
               harus keluar rumah. Kami percaya bahwa kenyamanan dan ketenangan
               bisa dinikmati di tempat yang paling personal: rumah Anda sendiri.
               Dengan terapis berpengalaman dan ramah, kami menghadirkan berbagai
               layanan pijat seperti massage tradisional, refleksi, bekam, hingga
-              perawatan dengan lulur dan lain lain. <br />
+              perawatan dengan lulur dan lain-lain. <br />
               Semua dapat dinikmati dengan mudah dan aman di rumah Anda.
             </p>
           </div>
 
-          <div className="w-full md:w-1/2 mt-6 md:mt-0 ml-[200px]">
+          {/* Gambar */}
+          <div className="w-full md:w-1/2 mt-6 md:mt-0 px-4 md:px-0">
             <Image
-              width={90}
+              width={600}
+              height={400}
               alt="logo"
-              height={70}
-              className="w-[600px] bg-black"
+              className="w-full max-w-md mx-auto rounded shadow-md"
               src="https://res.cloudinary.com/df6nytit6/image/upload/v1745569923/WhatsApp_Image_2025-04-25_at_15.27.20_2a56ebae_j6fnpi.jpg"
             />
-            {/* <div className="aspect-video w-full">
-              <iframe
-                className="w-full h-full rounded-lg"
-                src="https://www.youtube.com/embed/LhRXf-yEQqA?si=5oZzc6-86gOp2D5z"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
-            </div> */}
           </div>
         </div>
       </div>
+
+      {/* <div className="aspect-video w-full">
+        <iframe
+          className="w-full h-full rounded-lg"
+          src="https://www.youtube.com/embed/LhRXf-yEQqA?si=5oZzc6-86gOp2D5z"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      </div> */}
 
       <Pricelist />
 
