@@ -40,7 +40,7 @@ const Form = () => {
 📝 Catatan: ${formData.catatan}
     `;
 
-    const nomorTujuan = "6285780294072";
+    const nomorTujuan = "6281382228051";
     const encodedPesan = encodeURIComponent(pesan);
     const url = `https://wa.me/${nomorTujuan}?text=${encodedPesan}`;
 

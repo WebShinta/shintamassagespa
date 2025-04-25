@@ -54,7 +54,7 @@ const Navbar = () => {
           </label>
 
           <Link
-            href="https://wa.me/6285780294072?text=Halo%20Bunda%20Shinta%2C%20saya%20ingin%20pesan%20massage"
+            href="https://wa.me/6281382228051?text=Halo%20Bunda%20Shinta%2C%20saya%20ingin%20pesan%20massage"
             className="btn bg-white shadow-none text-neutral-600 rounded-full max-lg:hidden"
           >
             Kontak Kami

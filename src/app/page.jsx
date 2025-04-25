@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="w-full bg-white pt-28">
       <Link
-        href="https://wa.me/6285780294072?text=Halo%20Bunda%20Shinta%2C%20saya%20ingin%20pesan%20massage"
+        href="https://wa.me/6281382228051?text=Halo%20Bunda%20Shinta%2C%20saya%20ingin%20pesan%20massage"
         className="fixed bottom-6 right-6 bg-emerald-600 hover:bg-emerald-700 text-white p-4 rounded-full shadow-lg z-30 transition animate-bounce"
         target="_blank"
         rel="noopener noreferrer"
