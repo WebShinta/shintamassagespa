@@ -27,7 +27,7 @@ export default function Home() {
       <Hero />
 
       <div id="tentang"></div>
-      <div className="w-full p-6 md:p-17 bg-emerald-600 grid justify-center">
+      <div className="w-full p-7 md:p-17 bg-emerald-600 grid justify-center">
         <h1 className="text-center pb-10 text-2xl md:text-3xl font-bold mb-4 text-white">
           Apa itu Shinta Massage Spa?
         </h1>
